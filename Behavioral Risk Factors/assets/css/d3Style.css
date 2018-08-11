@@ -1,0 +1,33 @@
+/* Students:
+ * =========
+ * Add styling to your d3 chart with this file. */
+.tooltip {
+    position: absolute;
+    width: 135px;
+    height: 80px;
+    padding: 2px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    background: black;
+    border: 0;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.active {
+    font-weight: bold;
+    transition: fill 0.3s ease-out;
+    text-anchor: middle;
+}
+  
+.inactive {
+    font-weight: lighter;
+    transition: fill 0.3s ease-out;
+    text-anchor: middle;
+}
+
+.inactive:hover {
+    fill: blue;
+    cursor: pointer;
+}
